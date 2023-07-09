@@ -1,10 +1,10 @@
 {
   "expo": {
-    "owner": "REPLACE-ME",
-    "name": "REPLACE-ME",
-    "slug": "REPLACE-ME",
+    "owner": "ditchlabs",
+    "name": "Ditch",
+    "slug": "ditch",
     "version": "1.0.0",
-    "scheme": "REPLACE-ME",
+    "scheme": "dev.com.ditch",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -31,11 +31,11 @@
     },
     "extra": {
       "eas": {
-        "projectId": "REPLACE-ME"
+        "projectId": "19f7d641-bb9d-4b69-bfff-30223646949a"
       }
     },
     "updates": {
-      "url": "https://u.expo.dev/REPLACE-ME"
+      "url": "https://u.expo.dev/19f7d641-bb9d-4b69-bfff-30223646949a"
     },
     "runtimeVersion": {
       "policy": "sdkVersion"

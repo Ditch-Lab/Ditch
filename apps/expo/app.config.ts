@@ -16,11 +16,11 @@ const getVariantConfig = (config: ConfigContext['config']) => ({
     icon: './assets/icon-dev.png',
     android: {
       ...config.android,
-      package: 'dev.com.REPLACE-ME',
+      package: 'dev.com.ditch',
     },
     ios: {
       ...config.ios,
-      bundleIdentifier: 'dev.com.REPLACE-ME',
+      bundleIdentifier: 'dev.com.ditch',
     },
   },
   staging: {
@@ -30,11 +30,11 @@ const getVariantConfig = (config: ConfigContext['config']) => ({
     icon: './assets/icon-dev.png',
     android: {
       ...config.android,
-      package: 'staging.com.REPLACE-ME',
+      package: 'staging.com.ditch',
     },
     ios: {
       ...config.ios,
-      bundleIdentifier: 'staging.com.REPLACE-ME',
+      bundleIdentifier: 'staging.com.ditch',
     },
   },
   preview: {
@@ -44,11 +44,11 @@ const getVariantConfig = (config: ConfigContext['config']) => ({
     icon: './assets/icon.png',
     android: {
       ...config.android,
-      package: 'preview.com.REPLACE-ME',
+      package: 'preview.com.ditch',
     },
     ios: {
       ...config.ios,
-      bundleIdentifier: 'preview.com.REPLACE-ME',
+      bundleIdentifier: 'preview.com.ditch',
     },
   },
   production: {
@@ -58,11 +58,11 @@ const getVariantConfig = (config: ConfigContext['config']) => ({
     icon: './assets/icon.png',
     android: {
       ...config.android,
-      package: 'com.REPLACE-ME',
+      package: 'com.ditch',
     },
     ios: {
       ...config.ios,
-      bundleIdentifier: 'com.REPLACE-ME',
+      bundleIdentifier: 'com.ditch',
     },
   },
 })

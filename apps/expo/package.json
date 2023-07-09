@@ -79,7 +79,7 @@
     "start": "npx expo start",
     "start:android": "npx dotenv -c development -- npx expo run:android",
     "start:android:prod": "npx dotenv -c production -- npx expo run:android --variant release",
-    "start:devclient": "npx dotenv -c development -- npx expo start --tunnel --dev-client --scheme dev.com.REPLACE-ME",
+    "start:devclient": "npx dotenv -c development -- npx expo start --tunnel --dev-client --scheme dev.com.ditch",
     "start:ios": "npx dotenv -c development -- npx expo run:ios",
     "start:ios:prod": "npx dotenv -c production -- npx expo run:ios --configuration Release",
     "start:prod": "npx dotenv -c production -- npx expo start --no-dev --minify",
